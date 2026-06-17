@@ -1,0 +1,104 @@
+2026-06-17T18:15:46.933Z	Initializing build environment...
+2026-06-17T18:15:46.933Z	Initializing build environment...
+2026-06-17T18:15:53.089Z	Success: Finished initializing build environment
+2026-06-17T18:15:53.983Z	Cloning repository...
+2026-06-17T18:15:57.078Z	No build output detected to cache. Skipping.
+2026-06-17T18:15:57.078Z	No dependencies detected to cache. Skipping.
+2026-06-17T18:15:57.083Z	Detected the following tools from environment: 
+2026-06-17T18:15:57.311Z	Executing user deploy command: npx wrangler deploy
+2026-06-17T18:16:00.547Z	npm warn exec The following package was not found and will be installed: wrangler@4.101.0
+2026-06-17T18:16:17.472Z	
+2026-06-17T18:16:17.472Z	 ⛅️ wrangler 4.101.0
+2026-06-17T18:16:17.472Z	────────────────────
+2026-06-17T18:16:17.681Z	
+2026-06-17T18:16:17.682Z	Detected Project Settings:
+2026-06-17T18:16:17.682Z	 - Worker Name: khair-mzaraana-website
+2026-06-17T18:16:17.682Z	 - Framework: Static
+2026-06-17T18:16:17.683Z	 - Output Directory: .
+2026-06-17T18:16:17.683Z	
+2026-06-17T18:16:17.683Z	? Do you want to modify these settings?
+2026-06-17T18:16:17.683Z	🤖 Using fallback value in non-interactive context: no
+2026-06-17T18:16:17.694Z	
+2026-06-17T18:16:17.694Z	📄 Create wrangler.jsonc:
+2026-06-17T18:16:17.694Z	  {
+2026-06-17T18:16:17.694Z	    "$schema": "node_modules/wrangler/config-schema.json",
+2026-06-17T18:16:17.695Z	    "name": "khair-mzaraana-website",
+2026-06-17T18:16:17.695Z	    "compatibility_date": "2026-06-17",
+2026-06-17T18:16:17.695Z	    "observability": {
+2026-06-17T18:16:17.695Z	      "enabled": true
+2026-06-17T18:16:17.695Z	    },
+2026-06-17T18:16:17.695Z	    "assets": {
+2026-06-17T18:16:17.696Z	      "directory": "."
+2026-06-17T18:16:17.696Z	    },
+2026-06-17T18:16:17.696Z	    "compatibility_flags": [
+2026-06-17T18:16:17.696Z	      "nodejs_compat"
+2026-06-17T18:16:17.696Z	    ]
+2026-06-17T18:16:17.696Z	  }
+2026-06-17T18:16:17.696Z	
+2026-06-17T18:16:17.697Z	? Proceed with setup?
+2026-06-17T18:16:17.697Z	🤖 Using fallback value in non-interactive context: yes
+2026-06-17T18:16:17.708Z	├ Adding Wrangler files to the .gitignore file
+2026-06-17T18:16:17.708Z	│ created .gitignore file
+2026-06-17T18:16:17.709Z	│
+2026-06-17T18:16:19.322Z	🌀 Building list of assets...
+2026-06-17T18:16:19.337Z	✨ Read 61 files from the assets directory /opt/buildhome/repo
+2026-06-17T18:16:19.358Z	🌀 Starting asset upload...
+2026-06-17T18:16:21.425Z	🌀 Found 34 new or modified static assets to upload. Proceeding with upload...
+2026-06-17T18:16:21.425Z	+ /.git/HEAD
+2026-06-17T18:16:21.426Z	+ /.git/shallow
+2026-06-17T18:16:21.426Z	+ /.git/objects/0f/f3c94a3ab587842ea7ab463788947769a0353f
+2026-06-17T18:16:21.426Z	+ /.git/logs/refs/remotes/origin/main
+2026-06-17T18:16:21.426Z	+ /.git/index
+2026-06-17T18:16:21.426Z	+ /.git/config
+2026-06-17T18:16:21.426Z	+ /.git/hooks/pre-applypatch.sample
+2026-06-17T18:16:21.426Z	+ /.wrangler/tmp/deploy-6lumaV/no-op-worker.js.map
+2026-06-17T18:16:21.426Z	+ /.git/hooks/commit-msg.sample
+2026-06-17T18:16:21.426Z	+ /.git/hooks/prepare-commit-msg.sample
+2026-06-17T18:16:21.426Z	+ /.git/hooks/push-to-checkout.sample
+2026-06-17T18:16:21.427Z	+ /.git/hooks/pre-rebase.sample
+2026-06-17T18:16:21.427Z	+ /README.md
+2026-06-17T18:16:21.427Z	+ /.git/description
+2026-06-17T18:16:21.427Z	+ /.git/FETCH_HEAD
+2026-06-17T18:16:21.427Z	+ /.git/logs/refs/heads/main
+2026-06-17T18:16:21.427Z	+ /.git/info/exclude
+2026-06-17T18:16:21.427Z	+ /.wrangler/tmp/deploy-6lumaV/no-op-worker.js
+2026-06-17T18:16:21.427Z	+ /.git/hooks/applypatch-msg.sample
+2026-06-17T18:16:21.427Z	+ /.git/objects/33/fa4dd85389d4a224da673f957c4bc8cd561804
+2026-06-17T18:16:21.428Z	+ /index.html
+2026-06-17T18:16:21.428Z	+ /.git/hooks/pre-commit.sample
+2026-06-17T18:16:21.428Z	+ /.git/hooks/update.sample
+2026-06-17T18:16:21.428Z	+ /.git/objects/0e/14ff25cd9dd24bde6275a6c8cf8039df425fdb
+2026-06-17T18:16:21.428Z	+ /.gitignore
+2026-06-17T18:16:21.428Z	+ /.git/logs/HEAD
+2026-06-17T18:16:21.428Z	+ /.git/hooks/post-update.sample
+2026-06-17T18:16:21.428Z	+ /wrangler.jsonc
+2026-06-17T18:16:21.428Z	+ /.git/hooks/pre-merge-commit.sample
+2026-06-17T18:16:21.428Z	+ /.git/hooks/pre-receive.sample
+2026-06-17T18:16:21.429Z	+ /.git/objects/99/b4073eb04af39844a6b1c30d9a239087967369
+2026-06-17T18:16:21.429Z	+ /.git/hooks/pre-push.sample
+2026-06-17T18:16:21.429Z	+ /.git/hooks/sendemail-validate.sample
+2026-06-17T18:16:21.429Z	+ /.git/hooks/fsmonitor-watchman.sample
+2026-06-17T18:16:22.176Z	Uploaded 11 of 34 assets
+2026-06-17T18:16:22.344Z	Uploaded 22 of 34 assets
+2026-06-17T18:16:22.461Z	Uploaded 34 of 34 assets
+2026-06-17T18:16:22.467Z	✨ Success! Uploaded 34 files (2 already uploaded) (1.03 sec)
+2026-06-17T18:16:22.468Z	
+2026-06-17T18:16:22.468Z	Total Upload: 0.33 KiB / gzip: 0.24 KiB
+2026-06-17T18:16:25.455Z	Uploaded khair-mzaraana-website (6.32 sec)
+2026-06-17T18:16:26.330Z	▲ [WARNING] Because 'workers_dev' is not in your Wrangler file, it will be enabled for this deployment by default.
+2026-06-17T18:16:26.331Z	
+2026-06-17T18:16:26.333Z	  To override this setting, you can disable workers.dev by explicitly setting 'workers_dev = false' in your Wrangler file.
+2026-06-17T18:16:26.333Z	
+2026-06-17T18:16:26.333Z	
+2026-06-17T18:16:26.333Z	▲ [WARNING] Because your 'workers.dev' route is enabled and your 'preview_urls' setting is not in your Wrangler file, Preview URLs will be enabled for this deployment by default.
+2026-06-17T18:16:26.333Z	
+2026-06-17T18:16:26.334Z	  To override this setting, you can disable Preview URLs by explicitly setting 'preview_urls = false' in your Wrangler file.
+2026-06-17T18:16:26.334Z	
+2026-06-17T18:16:26.334Z	
+2026-06-17T18:16:26.334Z	Deployed khair-mzaraana-website triggers (0.88 sec)
+2026-06-17T18:16:26.334Z	  https://khair-mzaraana-website.hamdyfouad50.workers.dev
+2026-06-17T18:16:26.337Z	Current Version ID: 6815df83-b0cb-45c1-824c-204753edb3f6
+2026-06-17T18:16:26.337Z	
+2026-06-17T18:16:26.337Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-06-17T18:16:26.521Z	Success: Deploy command completed
+2026-06-17T18:16:26.752Z	✨ Success! Build completed.
